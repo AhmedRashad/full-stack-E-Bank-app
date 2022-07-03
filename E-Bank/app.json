@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "E-Bank",
+    "slug": "E-Bank",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/logo-red.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#a6b3ed"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ahmedrabie441.ebankapp",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/logo-red.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/splash.png"
+    }
+  }
+}
